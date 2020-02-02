@@ -1,5 +1,5 @@
 # Virtual Meltdown 2020
-## GameJam 2020 Entry
+## St. Louis GameJam 2020 Entry
 
 ### Overview
 
@@ -60,6 +60,7 @@ The following teachnologies were used to build the game:
 	- Bots and Turrets Sci-Fi Pack [Unity Asset Store for $14](https://assetstore.unity.com/packages/3d/characters/robots/bots-and-turrets-sci-fi-pack-100195) 
 	- SCI-FI Battery Pack [Unity Asset Store for $20](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-battery-pack-12231)
 	- Sci Fi Top Down Space Station PolygonR [Unity Asset Store for $25](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-top-down-space-station-polygonr-65449) 
+	- TextMesh Pro - Unity Asset STore for free
 	
 ### Architecture
 
