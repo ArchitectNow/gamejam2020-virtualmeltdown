@@ -1,4 +1,3 @@
-using Substance.Game;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -85,7 +84,7 @@ public class AudioManager : MonoBehaviour
             if (difficulty < 1 || difficulty > audioLevels.Length)
             {
                 difficulty = 0;
-                Log.Error("Invalid difficulty index");
+                Debug.Log("Invalid difficulty index");
             }
             
             audioSource.clip = audioLevels[difficulty-1];
