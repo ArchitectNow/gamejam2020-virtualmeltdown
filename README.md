@@ -23,6 +23,13 @@ Audio and Sound Effects
 - CJ Maus
 - Zach Zito
 
+### Design Considerations
+The "theme" for the Global Game Jam 2020 event was announced at 5pm on January 31st as "Repair".  Working with this theme we envisioned a sci-fi game where players work to repair overheating nucleur reactor on a space station.  While the game has some complex technical and team components the overall gameplay is fairly simple and "casual".   
+
+One goal we had initially was to build a team-based game where multiple players can collaborate using a single user interface but use their own personal smart devices (phones or tablets) as their controllers.  This idea was driven heavily by the popularity of the [JackBox Games](https://jackboxgames.com/) available on a wide number of platforms.  We felt that allowing players to use their own devices as controllers expanded greatly the unique types of experiences we could provide and a number of unique gameplay options.  We can "hide" information from the main screen or other players and present context aware options depending on where users are in the game.   We also wanted a social game where multiple players viewed the same central screen and interacting with it using their own phone.  We wanted to encourage local communication (yes, talking or yelling) while working towards or against each other.
+
+Another goal we had was to incorporate a VR player into our environment and allow them to contribute to the game while seeing the remote players in the same environment.  Too many VR games are solo games that have very little to offer a group of people wanting to collaborate.  Virtual Meltdown is a start down the path of finding ways to allow the VR player to collaborate with other players in the same environment.
+
 ### Technologies
 
 The following teachnologies were used to build the game:
@@ -62,9 +69,11 @@ The client application serves as the primary game user interface.  This piece of
 
 Once a game starts the client establishes a connection to our remote server (built with Colyseus) and creates a "room".  This room is given a unique four-digit code which is displayed on the primary game screen.  Remote players can navigate to a specific URL and enter their name, this room code, and choose one of three playable robots.  Once this is done they are placed in the primary game space where they can navigate by using the joystick on their phone and see the results on the main display.
 
-The client manages all in-game physics, collission detection, VR, and other logic.  It communicates efficiently both to and from all connected players via the Colyseus socket server.  The tooling provided by Colyseus made it easy for us to keep our Unity C# state objects in sync with our TypeScript models on the server (and also the TypeScript models in the Angular code for the controller.
+The client manages all in-game physics, collision detection, audio, VR, and other logic.  It communicates efficiently both to and from all connected players via the Colyseus socket server.  The tooling provided by Colyseus made it easy for us to keep our Unity C# state objects in sync with our TypeScript models on the server (and also the TypeScript models in the Angular code for the controller.
 
 Within the client project we have a single play field but two camera views:  one for the VR player and one for the remote players (who all view the same thing).   This allows us to hide things from different player types (and also leverage the fact that the remote players have their own custom UI on their devices which is unique to them).
+
+A number of great audio producers stopped by our table during the jam and volunteered to put together all audio and sound Fx assets for us.  We agreed, they pulled up a table, and nearly all sound and effects you hear in the game are uniquely built by these guys (names above).
 
 #### Remote Player Controller
 
