@@ -7,6 +7,12 @@ Virtual Meltdown is a game built by a group of St. Louis developers over the cou
 
 The primary development team of the Virtual Meltdown application are coworkers at the St. Louis development firm [ArchitectNow](http://www.architectnow.net) where they design and build large enterprise and commercial applications for customers across the US.
 
+If you have any questions about this repository, the technologies we used, or the game itself, please do not hesitate to shoot me an email at kvgros@architectnow.net.  **Please be aware that the code included does NOT include any commercial assets or other 3rd party code which isn't available to be shared.  For that reason you will NOT be able to quickly download, build, and run the full game.**  Please use it to learn how games like this are built and check out the game downloads at the Global Game Jam 2020 site.  The commercial assets used are called out below with links for you to potentially purchase them on your own and get everything running.
+
+Finally, thanks to the organizers of the St. Louis location of the Global Game Jam event and to all other participants.  We had a great time and are looking forward to continuing development on Virtual Meltdown and future games.  We'll be back next year and at future events.
+
+-The Virtual Meltdown Development Team
+
 ### Team Members
 
 Design and Development
@@ -14,7 +20,7 @@ Design and Development
 - Chau Tran
 - Guy Goodpaster
 - Kevin Brack
-- Kevin Grossnicklaus
+- Kevin Grossnicklaus (@kvgros kvgros@architectnow.net)
 - David Schwarb
 
 Audio and Sound Effects
