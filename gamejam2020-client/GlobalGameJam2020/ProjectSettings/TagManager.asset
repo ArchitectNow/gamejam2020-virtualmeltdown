@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - SpiderBall
+  - projectile
+  - FxTemporaire
+  - Destroyable
+  - teal
+  - green
+  - orange
+  - xmas
+  - rightRedWarning
+  - midRedWarning
+  - leftRedWarning
+  - rightBlueWarning
+  - leftBlueWarning
+  - midBlueWarning
+  - rightGreenWarning
+  - leftGreenWarning
+  - midGreenWarning
+  - leftYellowWarning
+  - rightYellowWarning
+  - midYellowWarning
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Test
+  - Floor
+  - noVR
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
