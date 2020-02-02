@@ -1,5 +1,5 @@
 # Virtual Meltdown 2020
-## GameJam 2020 Entry
+## St. Louis GameJam 2020 Entry
 
 ### Overview
 
